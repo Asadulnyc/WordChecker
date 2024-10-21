@@ -13,6 +13,13 @@ public class Main {
         System.out.println((words));
         WordChecker x = new WordChecker(words);
         System.out.println(x.isWordChain());
-        ArrayList<String> 
+        ArrayList<String> wordss = new ArrayList<String>();
+        wordss.add("to");
+        wordss.add("too");
+        wordss.add("stool");
+        wordss.add("tools");
+        WordChecker y = new WordChecker(wordss);
+        System.out.println(y.isWordChain());
+//        ArrayList<String> 
     }
 }
