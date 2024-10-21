@@ -20,6 +20,17 @@ public class Main {
         wordss.add("tools");
         WordChecker y = new WordChecker(wordss);
         System.out.println(y.isWordChain());
-//        ArrayList<String> 
+
+        ArrayList<String> catList = new ArrayList<String>();
+        catList.add("catch");
+        catList.add("bobcat");
+        catList.add("catchacat");
+        catList.add("cat");
+        catList.add("at");
+        WordChecker cats = new WordChecker(catList);
+        System.out.println(cats.createList("cat"));
+        System.out.println(cats.createList("catch"));
+        System.out.println(cats.createList("dog"));
+
     }
 }
